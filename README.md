@@ -1,4 +1,4 @@
-# AI Powered Decision Tree for Talking Computer (Python, OpenAI API, Google-Speech)
+# AI Powered Decision Tree for Talking Computer (Python, OpenAI API, Google Speech)
 
 This project allows you to communicate with your computer/ robot with natural speech.  We create a file that comtains all the functions for this project, we then read that file into a String value, and submit that with our request to OpenAI.  In the request we provide the user Query and teh Functions and then ask for the most approriate function for the Query.
 
