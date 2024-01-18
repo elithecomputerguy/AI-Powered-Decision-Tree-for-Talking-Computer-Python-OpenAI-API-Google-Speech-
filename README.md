@@ -6,12 +6,17 @@ There are 2 versions of the main script.  ai-decision.py allows you to enter que
 
 ##Modules to Install for Python
 openai
+
 gtts
+
 SpeechRecognition
 
+
 pyaudio -- required for speech to text through microphone.  can be difficult to install properly
+
 afplay -- an command line mp3 player for the Mac.  Install/ use whatever works for your system.
 
 ##API Keys
 OpenAI API - https://openai.com/
+
 Open Weather - https://openweathermap.org/api
