@@ -1,20 +1,13 @@
-# AI Powered Decision Tree for Talking Computer (Python, OpenAI API, Google Speech)
+# Machine Learning with OpenAI and Relational Database (OpenAI, Python, SQLite)
 
-This project allows you to communicate with your computer/ robot with natural speech.  We create a file that comtains all the functions for this project, we then read that file into a String value, and submit that with our request to OpenAI.  In the request we provide the user Query and teh Functions and then ask for the most approriate function for the Query.
+This project caches requests made to OpenAI in a SQLite database so that future identical requests can be retrieved from the database without making an API call.   The script allows the user to ask in a more natural way information from the system. System functions include hello, goodbye, time, weather and to tell a joke.  OpenAI is used to determine which function the user is asking for.
 
-There are 2 versions of the main script.  ai-decision.py allows you to enter queries through the keyboard and simply get text back.  This is good for building, troubleshooting and such.  a--decision-speech.py allows you to talk to the computer through the microphone and get a verbal response back.  This requires pyaudio to be installed properly. You also need to install an .mp3 player.  We use afplay because this was coded on a Mac, but just install/ call a player for your system
+YouTube Video - https://youtu.be/QRdxtO1PU3w
 
 ## Modules to Install for Python
 openai
-
-gtts
-
-SpeechRecognition
-
-
-pyaudio -- required for speech to text through microphone.  can be difficult to install properly
-
-afplay -- an command line mp3 player for the Mac.  Install/ use whatever works for your system.
+ 
+SQLite3 - May be already installed on your system
 
 ## API Keys
 OpenAI API - https://openai.com/
